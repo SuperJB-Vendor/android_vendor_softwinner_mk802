@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+echo "2048" > /sys/devices/virtual/bdi/179:0/read_ahead_kb
+echo "2048" > /sys/devices/virtual/bdi/7:0/read_ahead_kb
+echo "2048" > /sys/devices/virtual/bdi/93:0/read_ahead_kb
+
+echo "done Internal Storage Speed Fix"
